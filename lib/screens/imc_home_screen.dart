@@ -36,7 +36,7 @@ class _ImcHomeScreenState extends State<ImcHomeScreen> {
             children: [
               Expanded(
                 child: SelectorNumero(
-                  titulo: "Peso",
+                  titulo: "Pesdsfdghjso",
                   valor: pesoSeleccionado,
                   incrementar: () {
                     setState(() {
