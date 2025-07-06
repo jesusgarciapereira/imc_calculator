@@ -46,6 +46,7 @@ class _SelectorNumeroState extends State<SelectorNumero> {
               children: [
                 // Restar
                 FloatingActionButton(
+                  heroTag: null,
                   onPressed: () {
                     widget.decrementar();
                   },
@@ -56,6 +57,7 @@ class _SelectorNumeroState extends State<SelectorNumero> {
                 SizedBox(width: 16),
                 // Incrementar
                 FloatingActionButton(
+                  heroTag: null,
                   onPressed: () {
                     widget.incrementar();
                   },
